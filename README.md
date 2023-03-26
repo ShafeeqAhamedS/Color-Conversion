@@ -103,7 +103,7 @@ cv2.destroyAllWindows()
 
 Original - BGR                |  BGR to HSV                |  BGR to GRAY               |               
 :----------------------------:|:--------------------------:|:---------------------------:
-<img src="./1_BGR_Image.png"> |<img src="./1_BGRtoHSV.png"> |<img src="./1_BGRtoGRAY.png"> |
+<img width = "500" src="./1_BGR_Image.png"> |<img width = "500" src="./1_BGRtoHSV.png"> |<img width = "500" src="./1_BGRtoGRAY.png"> |
 
 
 
