@@ -101,9 +101,9 @@ cv2.destroyAllWindows()
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
-Original - BGR             |  BGR to HSV                |  BGR to GRAY               |               
-:-------------------------:|:--------------------------:|:---------------------------:
-<img src="./Mikasa.jpeg">  |<img src="./BGRtoGRAY.png"> | <img src="./BGRtoHSV.png"> |
+Original - BGR        |  BGR to HSV          |  BGR to GRAY         |               
+:--------------------:|:--------------------:|:---------------------:
+![](./1_BGR_Image.png)|![](./1_BGRtoHSV.png) |![](./1_BGRtoGRAY.png)|
 
 
 
