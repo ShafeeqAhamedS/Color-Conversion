@@ -108,28 +108,28 @@ cv2.destroyAllWindows()
 
 Original - BGR                              |  BGR to HSV                                | BGR to GRAY                                 |               
 :------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
-<img width = "500" src="./1_BGR_Image.png"> | <img width = "500" src="./1_BGRtoHSV.png"> | <img width = "500" src="./1_BGRtoGRAY.png"> |
+<img width = "350" src = "./1_BGR_Image.png"> | <img width = "350" src="./1_BGRtoHSV.png"> | <img width = "350" src="./1_BGRtoGRAY.png"> |
 
 Original - RGB                              |  RGB to HSV                                | RGB to GRAY                                 |               
 :------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
-<img width = "500" src="./1_RGB_Image.png"> | <img width = "500" src="./1_RGBtoHSV.png"> | <img width = "500" src="./1_RGBtoGRAY.png"> |
+<img width = "350" src="./1_RGB_Image.png"> | <img width = "350" src="./1_RGBtoHSV.png"> | <img width = "350" src="./1_RGBtoGRAY.png"> |
 
 
 ### ii) HSV to RGB and BGR
 
 Original - HSV                              |  HSV to RGB                                | HSV to BGR                                 |               
 :------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
-<img width = "500" src="./2_HSV_Image.png"> | <img width = "500" src="./2_HSVtoRGB.png"> | <img width = "500" src="./2_HSVtoBGR.png"> |
+<img width = "350" src="./2_HSV_Image.png"> | <img width = "350" src="./2_HSVtoRGB.png"> | <img width = "350" src="./2_HSVtoBGR.png"> |
 
 ### iii) RGB and BGR to YCrCb
 
 Original - RGB                              |  RGB to YCrCb                                |
 :------------------------------------------:|:--------------------------------------------:|
-<img width = "500" src="./3_RGB_Image.png"> | <img width = "500" src="./3_RGBtoYCrCb.png"> |
+<img width = "350" src="./3_RGB_Image.png"> | <img width = "350" src="./3_RGBtoYCrCb.png"> |
 
 Original - BGR                              |  BGR to YCrCb                                |
 :------------------------------------------:|:--------------------------------------------:|
-<img width = "500" src="./3_BGR_Image.png"> | <img width = "500" src="./3_BGRtoYCrCb.png"> |
+<img width = "350" src="./3_BGR_Image.png"> | <img width = "350" src="./3_BGRtoYCrCb.png"> |
 
 ### iv) Split and merge RGB Image
 
