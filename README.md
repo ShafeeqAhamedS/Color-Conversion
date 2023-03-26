@@ -17,13 +17,11 @@ Read the saved image using cv2.imread("filename.jpg").
 Convert the image into the given color transformation using cv2.cvtColor(image, cv2.BGR2YCrCb) 
 and similarly for other color formats. 
 
-
 ### Step4:
 Split and merge the image using cv2.split(hsv) and cv2.merge([h,s,v]) 
 
 ### Step5:
 Output the image using cv2.imshow("OUTPUT", image)
-
 
 ## Program:
 Developed By: **Shafeeq Ahamed. S**
@@ -103,6 +101,7 @@ cv2.imshow("MERGED IMAGE", merger)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
@@ -113,7 +112,6 @@ Original - BGR                              |  BGR to HSV                       
 Original - RGB                              |  RGB to HSV                                | RGB to GRAY                                 |               
 :------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
 <img width = "350" src="./1_RGB_Image.png"> | <img width = "350" src="./1_RGBtoHSV.png"> | <img width = "350" src="./1_RGBtoGRAY.png"> |
-
 
 ### ii) HSV to RGB and BGR
 
@@ -131,12 +129,12 @@ Original - BGR                              |  BGR to YCrCb                     
 :------------------------------------------:|:--------------------------------------------:|
 <img width = "350" src="./3_BGR_Image.png"> | <img width = "350" src="./3_BGRtoYCrCb.png"> |
 
+
 ### iv) Split and merge RGB Image
 
 RED Component   |  GREEN Component      |  BLUE Component       |  MERGED Image       |
 :--------------:|:---------------------:|:---------------------:|:-------------------:|
 <img width = "500" src="./4_RED_RGB.png"> | <img width = "500" src="./4_GREEN_RGB.png"> | <img width = "500" src="./4_BLUE_RGB.png"> | <img width = "500" src="./4_MERGED_RGB.png"> |
-
 
 ### v) Split and merge HSV Image
 
