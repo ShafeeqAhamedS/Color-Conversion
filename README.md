@@ -101,12 +101,11 @@ cv2.destroyAllWindows()
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
-<img height = "700" alt = "image" src="./BGRtoGRAY.png">
-<img height = "700" alt = "image" src="./BGRtoHSV.png">
+Original - BGR             |  BGR to HSV                |  BGR to GRAY               |               
+:-------------------------:|:--------------------------:|:---------------------------:
+<img src="./Mikasa.jpeg">  |<img src="./BGRtoGRAY.png"> | <img src="./BGRtoHSV.png"> |
 
-![BGR_Conv](https://user-images.githubusercontent.com/93427237/227734578-f05c2bb7-2b33-48ba-9008-5fada3a49771.png)
 
-![RGB_Conv](https://user-images.githubusercontent.com/93427237/227734576-d70a773c-a512-4d33-9327-8c0164158478.png)
 
 ### ii) HSV to RGB and BGR
 ![HSV_Conv](https://user-images.githubusercontent.com/93427237/227734575-0986cc70-0a54-4de4-9ff1-7ca487fb2b05.png)
