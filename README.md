@@ -1,24 +1,29 @@
-# Color Conversion
+# <p align="center">Color Conversion</p>
+
 ## AIM
 To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 
 ## Software Required:
 Anaconda - Python 3.7
+
 ## Algorithm:
 ### Step1:
-<br>
+Import cv2 library and upload the image or capture an image.
 
 ### Step2:
-<br>
+Read the saved image using cv2.imread("filename.jpg").
 
 ### Step3:
-<br>
+Convert the image into the given color transformation using cv2.cvtColor(image, cv2.BGR2YCrCb) 
+and similarly for other color formats. 
+
 
 ### Step4:
-<br>
+Split and merge the image using cv2.split(hsv) and cv2.merge([h,s,v]) 
 
 ### Step5:
-<br>
+Output the image using cv2.imshow("OUTPUT", image)
+
 
 ## Program:
 Developed By: **Shafeeq Ahamed. S**
@@ -101,35 +106,43 @@ cv2.destroyAllWindows()
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
 
-Original - BGR                |  BGR to HSV                |  BGR to GRAY               |               
-:----------------------------:|:--------------------------:|:---------------------------:
-<img width = "500" src="./1_BGR_Image.png"> |<img width = "500" src="./1_BGRtoHSV.png"> |<img width = "500" src="./1_BGRtoGRAY.png"> |
+Original - BGR                              |  BGR to HSV                                | BGR to GRAY                                 |               
+:------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
+<img width = "500" src="./1_BGR_Image.png"> | <img width = "500" src="./1_BGRtoHSV.png"> | <img width = "500" src="./1_BGRtoGRAY.png"> |
 
+Original - RGB                              |  RGB to HSV                                | RGB to GRAY                                 |               
+:------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
+<img width = "500" src="./1_RGB_Image.png"> | <img width = "500" src="./1_RGBtoHSV.png"> | <img width = "500" src="./1_RGBtoGRAY.png"> |
 
 
 ### ii) HSV to RGB and BGR
-![HSV_Conv](https://user-images.githubusercontent.com/93427237/227734575-0986cc70-0a54-4de4-9ff1-7ca487fb2b05.png)
+
+Original - HSV                              |  HSV to RGB                                | HSV to BGR                                 |               
+:------------------------------------------:|:------------------------------------------:|:--------------------------------------------:
+<img width = "500" src="./2_HSV_Image.png"> | <img width = "500" src="./2_HSVtoRGB.png"> | <img width = "500" src="./2_HSVtoBGR.png"> |
+
 ### iii) RGB and BGR to YCrCb
-![YCrCb_Conv](https://user-images.githubusercontent.com/93427237/227734574-f593781f-b527-459d-bee8-a5e348fbe0e0.png)
+
+Original - RGB                              |  RGB to YCrCb                                |
+:------------------------------------------:|:--------------------------------------------:|
+<img width = "500" src="./3_RGB_Image.png"> | <img width = "500" src="./3_RGBtoYCrCb.png"> |
+
+Original - BGR                              |  BGR to YCrCb                                |
+:------------------------------------------:|:--------------------------------------------:|
+<img width = "500" src="./3_BGR_Image.png"> | <img width = "500" src="./3_BGRtoYCrCb.png"> |
 
 ### iv) Split and merge RGB Image
-![RGB_Merge_Out](https://user-images.githubusercontent.com/93427237/227734572-938d83cf-a312-442d-ba43-f6f1b258e479.png)
 
-![RGB_Split](https://user-images.githubusercontent.com/93427237/227734573-6efc275f-2a77-4c6e-93c2-60813eba092c.png)
+RED Component   |  GREEN Component      |  BLUE Component       |  MERGED Image       |
+:--------------:|:---------------------:|:---------------------:|:-------------------:|
+<img width = "500" src="./4_RED_RGB.png"> | <img width = "500" src="./4_GREEN_RGB.png"> | <img width = "500" src="./4_BLUE_RGB.png"> | <img width = "500" src="./4_MERGED_RGB.png"> |
+
 
 ### v) Split and merge HSV Image
-![Split_HSV_Out](https://user-images.githubusercontent.com/93427237/227734569-5c9685f7-0c57-4fb3-940b-062e49e7c03e.png)
 
-![Split_HSV](https://user-images.githubusercontent.com/93427237/227734571-7e801886-afa6-4ff4-b290-4912e38236f0.png)
-
-
-
-
-
-
-
-
-
+HUE Component        |  SATURATION Component       |  VALUE Component    |  MERGED Image       |
+:-------------------:|:---------------------------:|:-------------------:|:-------------------:|
+<img width = "500" src="./5_HUE.png"> | <img width = "500" src="./5_SATURATION.png"> | <img width = "500" src="./5_VALUE.png"> | <img width = "500" src="./5_MERGED_HSV.png"> |
 
 ## Result:
 Thus the color conversion was performed between RGB, HSV and YCbCr color models.
